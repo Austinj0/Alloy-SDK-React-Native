@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# Alloy SDK in React Native 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Simple webview in react native to test Alloy's SDK
 
 ## Get started
 
@@ -9,42 +9,17 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npm install
    ```
+   Install xCode from the AppStore
+   Open xCode, agree to terms and then navigate to settings.
+   From settings choose platform and download iOS
+   Once the download is complete a simulator should be installed on your machine.
 
-2. Start the app
+2. Set parameters 
+   Set the journey token, application token, key and base url in index. 
+   note Alloy's base url is https://alloysdk.alloy.co/
+
+3. Start the app for iOS
 
    ```bash
-    npx expo start
+    npm run ios
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
